@@ -16,7 +16,7 @@ mv ~/.config/nvim       ~/.config/nvim.bak
 mv ~/.local/share/nvim  ~/.local/share/nvim.bak
 ```
 
-Clone oh-my-nvim repo
+Clone purpleschool-neovim repo
 
 ```bash
 git clone https://github.com/DaniilSintsov/purpleschool-neovim.git ~/.config/nvim
