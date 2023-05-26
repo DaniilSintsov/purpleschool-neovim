@@ -62,7 +62,22 @@ require("lazy").setup({
 		end,
 	},
 	{ "akinsho/toggleterm.nvim", version = "*", config = true },
-	{ "jose-elias-alvarez/null-ls.nvim" },
+	{ "jose-elias-alvarez/null-ls.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
+	{
+		"jay-babu/mason-null-ls.nvim",
+		event = { "BufReadPre", "BufNewFile" },
+		dependencies = {
+			"williamboman/mason.nvim",
+			"jose-elias-alvarez/null-ls.nvim",
+		},
+		config = function()
+			require("mason-null-ls").setup({
+				automatic_setup = true,
+				ensure_installed = { "shfmt", "prettier", "stylua" },
+				handlers = {},
+			})
+		end,
+	},
 	{ "windwp/nvim-autopairs" },
 	{ "Djancyp/outline" },
 	{ "terrortylor/nvim-comment" },
