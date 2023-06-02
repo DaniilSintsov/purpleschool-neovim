@@ -31,6 +31,10 @@ null_ls.setup({
 				"handlebars",
 			},
 		}),
+		null_ls.builtins.diagnostics.cpplint.with({
+			-- override args completely to make sure ordering is correct
+			args = { "--filter=-legal/copyright", "$FILENAME" },
+		}),
 	},
 	on_attach = function(client, bufnr)
 		if client.supports_method("textDocument/formatting") then

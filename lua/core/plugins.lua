@@ -73,7 +73,7 @@ require("lazy").setup({
 		config = function()
 			require("mason-null-ls").setup({
 				automatic_setup = true,
-				ensure_installed = { "shfmt", "prettier", "stylua" },
+				ensure_installed = { "shfmt", "prettierd", "stylua", "eslint_d" },
 				handlers = {},
 			})
 		end,
