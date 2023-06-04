@@ -10,7 +10,7 @@ local colors = {
     red = '#ff5189',
     violet = '#d183e8',
     grey = '#303030',
-    bg = '#21252b',
+    bg = '#16181c',
 }
 
 local bubbles_theme = {
