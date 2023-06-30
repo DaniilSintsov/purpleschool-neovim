@@ -12,7 +12,7 @@ wk.register({
 	o = { "Git status" },
 	x = { "Close Buffer" },
 	w = { "Save" },
-	t = { name = "Terminal", f = { "Float terminal" }, h = { "Horizontal terminal" } },
+	t = { "Terminal" },
 	h = { "No highlight" },
 	g = { name = "Git", b = "Branches", c = "Commits", s = "Status" },
 	c = { name = "Comment", l = "Comment Line" },
