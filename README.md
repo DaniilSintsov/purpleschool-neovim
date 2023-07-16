@@ -4,8 +4,8 @@ A nvim config by [AlariCode](https://github.com/AlariCode)
 
 ## Requirements
 
-+ Neovim 0.8+
-+ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - JetBrainsMono Nerd Font
+- Neovim 0.8+
+- [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - JetBrainsMono Nerd Font
 
 ## Install
 
