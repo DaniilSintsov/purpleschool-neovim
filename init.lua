@@ -1,4 +1,5 @@
 vim.opt.clipboard = "unnamedplus"
+vim.o.swapfile = false
 
 -- Basic config
 require("core.mappings")
