@@ -7,6 +7,12 @@ A nvim config by [AlariCode](https://github.com/AlariCode)
 - Neovim 0.8+
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - JetBrainsMono Nerd Font
 
+## Features
+
+- [Emmet](https://www.emmet.io/) support
+- Markdown preview with [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+- Color picker with [color-picker.nvim](https://github.com/ziontee113/color-picker.nvim)
+
 ## Install
 
 Backup your current nvim

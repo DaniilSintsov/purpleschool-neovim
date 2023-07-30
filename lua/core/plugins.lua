@@ -112,4 +112,16 @@ require("lazy").setup({
 	{ "hrsh7th/vim-vsnip" },
 	{ "hrsh7th/vim-vsnip-integ" },
 	{ "mattn/emmet-vim" },
+	{
+		"iamcco/markdown-preview.nvim",
+		config = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	},
+	{
+		"ziontee113/color-picker.nvim",
+		config = function()
+			require("color-picker")
+		end,
+	},
 })
