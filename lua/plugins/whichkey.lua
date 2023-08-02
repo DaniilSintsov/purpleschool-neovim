@@ -9,7 +9,6 @@ wk.register({
 		w = { "Find Text" },
 	},
 	e = { "File Manager" },
-	o = { "Git status" },
 	x = { "Close Buffer" },
 	w = { "Save" },
 	t = { "Terminal" },

@@ -1,8 +1,7 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set("n", "<leader>e", ":Neotree float reveal<CR>")
-vim.keymap.set("n", "<leader>o", ":Neotree float git_status<CR>")
+vim.keymap.set("n", "<leader>e", ":NeoTreeShowToggle<CR>")
 
 -- Navigation
 vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
@@ -17,7 +16,7 @@ vim.keymap.set("n", "\\", ":split<CR>")
 
 -- Other
 vim.keymap.set("n", "<c-s>", ":w<CR>")
-vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
+vim.keymap.set("n", "<leader>x", ":bp | bd #<CR>")
 vim.keymap.set("i", "jj", "<Esc>")
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 
@@ -27,3 +26,7 @@ vim.keymap.set("n", "<s-Tab>", ":BufferLineCyclePrev<CR>")
 
 -- Terminal
 vim.keymap.set("n", "<leader>t", ":ToggleTerm direction=float<CR>")
+
+-- Bookmarks
+vim.keymap.set("n", "ma", ":BookmarkToggle<CR>")
+vim.keymap.set("n", "`", ":BookmarkShowAll<CR>")

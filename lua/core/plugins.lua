@@ -124,4 +124,6 @@ require("lazy").setup({
 			require("color-picker")
 		end,
 	},
+	{ "gioele/vim-autoswap" },
+	{ "MattesGroeger/vim-bookmarks" },
 })
