@@ -15,6 +15,5 @@ require("bufferline").setup({
 			icon = "  ", -- this should be omitted if indicator style is not 'icon'
 			style = "icon",
 		},
-		separator_style = "slope",
 	},
 })
