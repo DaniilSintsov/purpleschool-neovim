@@ -126,4 +126,17 @@ require("lazy").setup({
 	},
 	{ "gioele/vim-autoswap" },
 	{ "MattesGroeger/vim-bookmarks" },
+	{
+		"brenoprata10/nvim-highlight-colors",
+		config = function()
+			require("nvim-highlight-colors").setup()
+		end,
+	},
+	{
+		"shellRaining/hlchunk.nvim",
+		event = { "UIEnter" },
+		config = function()
+			require("hlchunk").setup({})
+		end,
+	},
 })
