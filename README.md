@@ -12,7 +12,7 @@ A nvim config by [AlariCode](https://github.com/AlariCode)
 - [Emmet](https://www.emmet.io/) support
 - Markdown preview with [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 - Color picker with [color-picker.nvim](https://github.com/ziontee113/color-picker.nvim)
-- Сonvenient work with bookmarks via [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
+- Сonvenient work with bookmarks via [bookmarks.nvim](https://github.com/crusj/bookmarks.nvim)
 
 ## Install
 
