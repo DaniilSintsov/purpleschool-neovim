@@ -1,4 +1,5 @@
 vim.opt.clipboard = "unnamedplus"
+vim.cmd('set cursorline')
 
 vim.o.foldmethod = "expr"
 vim.o.foldexpr = "nvim_treesitter#foldexpr()"
