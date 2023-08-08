@@ -1,10 +1,3 @@
-vim.opt.clipboard = "unnamedplus"
-vim.cmd('set cursorline')
-
-vim.o.foldmethod = "expr"
-vim.o.foldexpr = "nvim_treesitter#foldexpr()"
-vim.o.foldenable = false
-
 -- Basic config
 require("core.mappings")
 require("core.plugins")

@@ -5,6 +5,7 @@ A nvim config by [AlariCode](https://github.com/AlariCode)
 ## Requirements
 
 - Neovim 0.8+
+- [Ripgrep](https://github.com/BurntSushi/ripgrep)
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - JetBrainsMono Nerd Font
 
 ## Features
@@ -12,7 +13,6 @@ A nvim config by [AlariCode](https://github.com/AlariCode)
 - [Emmet](https://www.emmet.io/) support
 - Markdown preview with [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 - Color picker with [color-picker.nvim](https://github.com/ziontee113/color-picker.nvim)
-- Сonvenient work with bookmarks via [bookmarks.nvim](https://github.com/crusj/bookmarks.nvim)
 
 ## Install
 
