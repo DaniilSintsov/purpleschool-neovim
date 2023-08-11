@@ -18,7 +18,12 @@ require("lazy").setup({
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 	{ "cooperuser/glowbeam.nvim" },
-	{ "Mofiqul/dracula.nvim" },
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 	{ "nvim-treesitter/nvim-treesitter" },
 	{ "neovim/nvim-lspconfig" },
 	{ "hrsh7th/cmp-nvim-lsp" },
